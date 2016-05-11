@@ -1,4 +1,4 @@
-package rs.ac.uns.ftn.informatika.mbs2.vezbe09.primer01.server.servlet;
+package controller;
 
 import java.io.IOException;
 
