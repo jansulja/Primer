@@ -3,8 +3,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jstl/fmt" %>
 
-<jsp:useBean id="menjaci" type="java.util.List" scope="request"/>
-<jsp:useBean id="goriva" type="java.util.List" scope="request"/>
 
 <fmt:setBundle basename="messages.messages"/>
 
@@ -29,7 +27,7 @@
 				</tr>
 				<tr>
 					<td>Broj Licne Karte:</td>
-					<td><input type="text" name="brojLicne" ></td>				
+					<td><input type="text" name="brojLicne" style="width: 161px; "></td>				
 				</tr>
 				<tr>
 					<td>Datum Rodjenja:</td>
@@ -66,7 +64,7 @@
 							
 				<tr>
 					<td>&nbsp;</td>
-					<td><input type="submit" name="submit" value="<fmt:message key="dodaj"/>"></td>				
+					<td><input type="submit" name="submit" value="Dodaj"></td>				
 				</tr>
 			</table>							
 		</form>
