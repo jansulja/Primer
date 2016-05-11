@@ -8,7 +8,7 @@
    
    <servlet>
       <servlet-name>ReadGradjaninController</servlet-name>
-      <servlet-class>rs.ac.uns.ftn.informatika.mbs2.vezbe09.primer01.server.servlet.ReadGradjaninController</servlet-class>
+      <servlet-class>controller.ReadGradjaninController</servlet-class>
    </servlet>
    
    <servlet>
