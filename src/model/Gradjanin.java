@@ -13,6 +13,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "gradjanin")
 //provera
+//asd
 public class Gradjanin {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
