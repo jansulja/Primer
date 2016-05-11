@@ -12,7 +12,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "gradjanin")
-
+//provera
 public class Gradjanin {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
