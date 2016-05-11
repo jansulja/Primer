@@ -7,6 +7,11 @@
    </servlet>
    
    <servlet>
+      <servlet-name>ReadGradjaninController</servlet-name>
+      <servlet-class>rs.ac.uns.ftn.informatika.mbs2.vezbe09.primer01.server.servlet.ReadGradjaninController</servlet-class>
+   </servlet>
+   
+   <servlet>
       <servlet-name>PrepareUpdateController</servlet-name>
       <servlet-class>rs.ac.uns.ftn.informatika.mbs2.vezbe09.primer01.server.servlet.PrepareUpdateController</servlet-class>
    </servlet>
@@ -79,6 +84,11 @@
    <servlet-mapping>
       <servlet-name>DeleteController</servlet-name>
       <url-pattern>/DeleteController</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>ReadGradjaninController</servlet-name>
+      <url-pattern>/ReadGradjaninController</url-pattern>
    </servlet-mapping>
    
    <welcome-file-list>

@@ -25,7 +25,7 @@ public class ReadGradjaninController extends HttpServlet{
 		try {
 			
 
-			request.setAttribute("gradjani", gradjaninDao.findAll());
+			request.setAttribute("gradjanin", gradjaninDao.findAll());
 			
 			getServletContext().getRequestDispatcher("/gradjaninRead.jsp").forward(request, response);
 		
