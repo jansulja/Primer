@@ -50,7 +50,7 @@ public class CreateGradjaninController extends HttpServlet {
 			Integer brojTelefona = null;
 			String email = null;
 			
-			
+			 
 			
 			if ((request.getParameter("ime") != null) && (!"".equals(request.getParameter("ime")))) {
 				ime = request.getParameter("ime");
